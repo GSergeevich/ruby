@@ -1,20 +1,12 @@
 class Figure
-  $figure = {:form=> 0,:center=> {:x => 0,:y => 0 },:color=> 0}
-  
   def set_form(form)
     forms = ['round','triangle','square','dot']
     @code = 0
     if forms.index(form) == nil
       puts format('%s is not correct for form,use one of %s',form,forms.to_s)
     else
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
-      puts "form: #{forms.index(form).to_s(2)}"
-      puts "form: #{forms.index(form)}"
       @code |= forms.index(form)
       @code <<= 8
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
     end
   end
 
@@ -22,20 +14,10 @@ class Figure
     if !(0..255).include? x
       puts format('%s , %s is not correct for coordinate,use both in 0..255 range', x,y)
     else
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
       @code |= x
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
       @code <<= 8
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
       @code |= y
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
       @code <<= 3
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
     end
   end
 
@@ -45,13 +27,7 @@ class Figure
     if colors.index(color) == nil
       puts format('%s is not correct for color,use one of %s',color,colors.to_s)
     else
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
-      puts "colors: #{colors.index(color).to_s(2)}"
-      puts "colors: #{colors.index(color)}"
       @code |= colors.index(color)
-      puts "@code: #{@code.to_s(2)}"
-      puts "@code: #{@code}"
     end
   end
 
