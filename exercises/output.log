@@ -1,0 +1,40 @@
+=> #<StringIO:0x0000555b6e6a8b68>
+/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux
+=> nil
+/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux
+=> nil
+/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux
+/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0
+/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux
+=> nil
+some log
+=> nil
+=> 30
+=> "#<StringIO:0x0000555b6e6a8b68>"
+#<StringIO:0x0000555b6e6a8b68>
+=> nil
+=> 1879
+=> "=> #<StringIO:0x0000555b6e6a8b68>\n/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux\n=> nil\n/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux\n=> nil\n/home/german/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/site_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby/2.6.0/x86_64-linux\n/home/german/.rbenv/versions/2.6.6/lib/ruby/vendor_ruby\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0\n/home/german/.rbenv/versions/2.6.6/lib/ruby/2.6.0/x86_64-linux\n=> nil\nsome log\n=> nil\n=> 30\n=> \"#<StringIO:0x0000555b6e6a8b68>\"\n#<StringIO:0x0000555b6e6a8b68>\n=> nil\n"
+=> 3811
