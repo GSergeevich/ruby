@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 pi = 3.1415926535
 
 pi_s = pi.to_s
 dot_index = pi_s.index('.')
-range = Range.new(0,dot_index+3)
+range = Range.new(0, dot_index + 3)
 p pi_s[range].to_f
 
 #######
@@ -11,7 +13,7 @@ puts week
 
 #######
 
-colors = {red: 'красный', blue: 'синий' , green: 'зелёный'}
+colors = { red: 'красный', blue: 'синий', green: 'зелёный' }
 puts colors[:red]
 
 #######
@@ -30,19 +32,17 @@ p Time.new.hour
 
 ########
 
-rainbow = ['red','green','violet','yellow','blue','white','black']
+rainbow = %w[red green violet yellow blue white black]
 p rainbow.sample
 
 ########
-dot1 = {x: 3, y: 7}
-dot2 = {x: -1 , y:5}
+dot1 = { x: 3, y: 7 }
+dot2 = { x: -1, y: 5 }
 
-distance = ((dot1[:x] - dot2[:x]) ** 2 ) + ((dot1[:y] - dot2[:y]) ** 2 ) 
+distance = ((dot1[:x] - dot2[:x])**2) + ((dot1[:y] - dot2[:y])**2)
 p distance
 p Math.sqrt(distance.to_f)
 p dot1.methods
-p "Methods:"
-p dot1.methods()
+p 'Methods:'
+p dot1.methods
 p dot1.instance_variables
-
-#

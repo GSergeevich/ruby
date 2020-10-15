@@ -1,7 +1,8 @@
-string = <<here
-text
-text
+# frozen_string_literal: true
+
+string = <<~here
+  text
+  text
 here
 
 puts string
-

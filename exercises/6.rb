@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './hello'
 
 hello = HelloWorld.new
@@ -11,7 +13,7 @@ DAY5 = 'friday'
 DAY6 = 'saturday'
 DAY7 = 'sunday'
 
-WEEK = Array.new
+WEEK = [].freeze
 WEEK << DAY1
 WEEK << DAY2
 WEEK << DAY3
@@ -21,9 +23,8 @@ WEEK << DAY6
 WEEK << DAY7
 
 (1..7).each do |number|
-  puts WEEK[number -1]
+  puts WEEK[number - 1]
 end
-
 
 p DAY1.methods
 p DAY1.class

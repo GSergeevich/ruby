@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 task default: :time
 
 task :time do
   t = Time.now
   puts t
-end  
+end

@@ -1,19 +1,17 @@
+# frozen_string_literal: true
+
 class Point
   def set_x(x)
     @x = x
-  end  
+  end
 
   def set_y(y)
     @y = y
   end
 
-  def x
-    @x
-  end
+  attr_reader :x
 
-  def y
-    @y
-  end
+  attr_reader :y
 end
 
 point1 = Point.new
@@ -29,14 +27,13 @@ puts Math.sqrt((point1.x - point2.x)**2 + (point1.y - point2.y)**2)
 
 array = $LOAD_PATH
 count = 0
-array.each do |path|
-  count +=1
+array.each do |_path|
+  count += 1
 end
 
 p count
 
 class Car
-
   def set_wheels(wheels)
     @wheels = wheels
   end
@@ -53,22 +50,13 @@ class Car
     @passengers = passengers
   end
 
-  def wheels
-    @wheels
-  end
+  attr_reader :wheels
 
-  def carrying
-    @carrying
-  end
+  attr_reader :carrying
 
-  def trailer
-    @trailer
-  end
+  attr_reader :trailer
 
-  def passengers
-    @passengers
-  end
-
+  attr_reader :passengers
 end
 
 taxi = Car.new
@@ -79,8 +67,3 @@ taxi.set_passengers(4)
 taxi.set_carrying('low')
 
 puts taxi.instance_variables
-
-
-
-
-
