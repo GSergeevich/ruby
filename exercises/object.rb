@@ -13,13 +13,19 @@ class Figure
   end
 
   def set_center(x, y)
-    if !(0..255).include? x
-      puts format('%s , %s is not correct for coordinate,use both in 0..255 range', x, y)
-    else
+    if (0..255).include? x 
       @code |= x
       @code <<= 8
-      @code |= y
-      @code <<= 3
+      if (0..255).include? y 
+        @code |= y
+        @code <<= 3
+      else
+        puts format('%s is not correct for coordinate,use number in 0..255 range', y)
+        @code = 0
+      end
+    else
+      puts format('%s is not correct for coordinate,use number in 0..255 range', x)
+      @code = 0
     end
   end
 
@@ -80,9 +86,10 @@ end
 fig = Figure.new
 
 fig.set_form('triangle')
-fig.set_center(3, 2)
+fig.set_center(301, 20)
+fig.set_center(31, 2002)
 fig.set_color('white')
 fig.put
 code = fig.code
-fig.decode(code)
+#fig.decode(code)
 fig.decode1(code)
