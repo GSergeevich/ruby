@@ -16,6 +16,9 @@ even_num = 6
 puts format('Is %d odd? It is %s', odd_num, (odd_num & 1).positive?)
 puts format('Is %d odd?It is %s', even_num, (even_num & 1).positive?)
 
+puts format('%d is an %s', odd_num, (odd_num & 1).zero? ? 'even' : 'odd' )
+puts format('%d is an %s', even_num, (even_num & 1).zero? ? 'even' : 'odd' )
+
 ########
 
 fst = 10

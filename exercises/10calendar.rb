@@ -29,21 +29,21 @@ last_day = last_day_of_month(now) # last day of month
 
 puts format('  %<month>s  %<year>s', month: year[now.month - 1],year: now.year)
 
-first_week = 1 # is a first week in a month ? (flag)
+first_week = 1 # is this a first week of a month ? (flag)
 loop do
   day = date.strftime('%a').to_sym # key for days_hash
-  days_hash[day][0] = translate(day) # place day name(translated)
+  days_hash[day][0] = translate(day) # place day name(translated to russian)
   days_hash[day][1] = ' ' if first_week == 0 # place space if curent-day array start not from first week of the month 
-  first_week = 0 if date.wday == 6 # first week ended
+  first_week = 0 if date.wday == 6 # last day of first week, ended
 
-  i = date.mday
-  while i <= last_day
-    days_hash[day] << i
-    i += 7
+  i = date.mday # number of a current day (in month)
+  while i <= last_day # until month ended
+    days_hash[day] << i # add day number to their hash
+    i += 7 # next number of currnet day of week 
   end
 
-  date = Time.at(date.to_i + days_to_seconds(1))
-  break unless date.mday <= 7
+  date = Time.at(date.to_i + days_to_seconds(1)) # next day
+  break unless date.mday <= 7 # all 7 days of week passed
 end
 
 days.each do |day|
